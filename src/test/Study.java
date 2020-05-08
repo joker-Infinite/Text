@@ -1,8 +1,8 @@
 package test;
 
 interface Study {
-    int COURSENUM =3;
+    int courseNum =3;
     default void stu(){
-        System.out.println("学生需要学习"+COURSENUM+"门课程");
+        System.out.println("学生需要学习"+courseNum+"门课程");
     }
 }
